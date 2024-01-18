@@ -1,0 +1,16 @@
+<ul class="share-buttons">
+    <li><a class="gplus-share" onclick="shareLink()"><i class="fa-brands fa-whatsapp"></i> Share</a></li>
+           </ul>
+<script>
+    function shareLink() {
+    // Get the current URL
+    var currentUrl = window.location.href;
+
+    // Copy the URL to the user's clipboard
+    navigator.clipboard.writeText(currentUrl).then(function() {
+        alert("Link berhasil disalin ke clipboard!");
+    }, function() {
+        alert("Tidak dapat menyalin link ke clipboard.");
+    });
+    }
+       </script>
