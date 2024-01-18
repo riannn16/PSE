@@ -14,3 +14,7 @@
     });
     }
        </script>
+
+
+
+*note : izin bapak/ibu maaf saya kirimkan hasil tugas melalui github, karena saya coba menggunakan gitlab tidak berhasil terus pada awal sign in atau register atau trial, mohon kiranya di maklumi, terima kasih
